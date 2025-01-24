@@ -874,3 +874,290 @@ footer h3 span {
 .contact .card:hover .contact-icon {
     color: var(--text-color);
 }
+
+
+
+
+@media (max-width: 1285px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    .services-container {
+        padding-bottom: 7rem;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 5rem;
+    }
+
+}
+
+@media(max-width:991px) {
+    header {
+        padding: 2rem 3%;
+    }
+
+    section {
+        padding: 10rem 3% 2rem;
+    }
+
+    .timeline-items::before {
+        left: 7px;
+    }
+
+    .timeline-item:nth-child(odd) {
+        padding-right: 0;
+        text-align: left;
+    }
+
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even) {
+        padding-left: 37px;
+    }
+
+    .timeline-dot {
+        left: 0;
+    }
+
+    .services {
+        padding-bottom: 7rem;
+    }
+
+    .footer {
+        padding: 2rem 3%;
+    }
+}
+
+@media(max-width:895px) {
+    #menu {
+        top: 24px;
+        display: block;
+    }
+
+    #menu :hover {
+        box-shadow: 0 0 10px var(--main-color);
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 50%;
+        padding: 1rem 3%;
+        background-color: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(20px);
+        border-bottom-left-radius: 2rem;
+        border-left: 2px solid var(--main-color);
+        border-bottom: 2px solid var(--main-color);
+        display: none;
+        /* الإخفاء الافتراضي */
+    }
+
+    .navbar.active {
+        display: block;
+        /* عرض القائمة عند النقر على الأيقونة */
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem;
+        color: var(--text-color);
+    }
+
+    .home {
+        flex-direction: column-reverse;
+        margin: 5rem 4rem;
+
+    }
+
+    .home-content h3 {
+        font-size: 2.6rem;
+    }
+
+    .home-content h1 {
+        font-size: 8rem;
+        margin-top: 3rem;
+    }
+
+    .home-content p {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .home-imge {
+        width: 56vw;
+        position: absolute;
+        top:0px;
+        left: 100px;
+        z-index: 1;
+
+    }
+
+    
+    .home-imge img{
+    width: 70vw;
+    z-index: 1;
+    
+    }
+    .services-info{
+    margin-top: -25px;
+    overflow: hidden;
+    
+    }
+
+    .services h2 {
+        
+        margin-bottom: 3rem;
+        
+    }
+
+    .services-container {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .contact .card {
+        padding-top: 112px;
+        width: 280px;
+        height: 320px;
+    }
+
+    .contact .card .contact-icon {
+        margin-top: -90px;
+        font-size: 90px;
+
+    }
+
+
+    .contact .card .contact-info h3 {
+        font-size: 20px;
+        font-weight: 800;
+        margin-bottom: 20px;
+        color: var(--main-color);
+    }
+
+    .project .card {
+        width: 300px;
+        height: 550PX;
+    }
+
+    .project-img img {
+        width: 200px;
+        height: 200px;
+        margin-top: 2px;
+
+    }
+
+
+    .Project-info h3 {
+
+        padding: 5px 0;
+        font-size: 15PX;
+        font-weight: 900;
+        padding: 20px 0;
+
+    }
+
+
+    .Project-info p {
+        font-size: 1.3rem;
+        font-weight: 200;
+        max-height: 1;
+        margin: 0;
+    }
+
+    .more-details {
+
+        width: 150px;
+        height: 50px;
+        font-size: 23px;
+    }
+
+
+
+    /* --------------------- */
+    .MYSUPPORTERS-img img {
+        width: 50vw;
+    }
+
+    .MYSUPPORTERS-img {
+        margin: 40px 0;
+
+    }
+
+    .MYSUPPORTERS-info {
+        width: 70vw;
+        font-size: 18px;
+    }
+
+    .MYSUPPORTERS h1 {
+        /* width: 140px; */
+        font-size: 20px;
+        padding-top: 12px;
+    }
+    
+    .MYSUPPORTERS h1:hover {
+        /* width: 140px; */
+        font-size: 13px;
+        padding-top: 15px;
+    }
+
+    .MYSUPPORTERS h1 {
+        width: 110px;
+        font-size: 13px;
+        padding-top: 15px;
+        font-weight: 700;
+        
+    }
+    
+    .MYSUPPORTERS .social-icons .mas{
+        color: var(--text-color);
+        transform: scale(1.2) translateY(6px);
+        box-shadow: 0 0 25px var(--main-color);
+        background-color: var(--main-color);
+        margin-left: 8px;
+    }
+
+
+
+    .MYSUPPORTERS .social-icons {
+        margin-left: 15PX;
+
+    }
+
+    .text-animation {
+        font-size: 34px;
+        font-weight: 600;
+        min-width: 280PX;
+    }
+
+    .text-animation SPAN {
+        font-size: 19px;
+        font-weight: 600;
+        width: 100%;
+    }
+
+    .footer-contaner1 {
+        width: 100%;
+        height: 230px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: #00ffee2b; */
+    }
+
+
+    .footer-contaner1 h3 {
+        position: absolute;
+        bottom: 10%;
+        left: 50VW;
+        margin-left: -71PX;
+        font-size: 20px;
+        font-weight: 600;
+
+    }
+
+
+}
